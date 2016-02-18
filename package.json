@@ -1,0 +1,32 @@
+{
+  "name": "audioDoor",
+  "version": "1.0.0",
+  "description": "RaspberryPi app that plays random sound clip when a door opens",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shake10861/audioDoor.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "nodejs",
+    "seinfeld",
+    "reed",
+    "gpio",
+    "switch"
+  ],
+  "author": "Jake Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shake10861/audioDoor/issues"
+  },
+  "homepage": "https://github.com/shake10861/audioDoor",
+  "dependencies": {
+    "lame": "^1.2.3",
+    "onoff": "^1.0.4",
+    "speaker": "^0.2.6"
+  }
+}
